@@ -1,37 +1,29 @@
 # Prueba3-Programacion
 
-CREATE DATABASE db_cinema;
-GO
-USE db_cinema;
-GO
+# Commandos git 
+- git clone URL 
 
-CREATE TABLE [Cinemas] (
-	[Id] INT NOT NULL PRIMARY KEY IDENTITY(1,1),
-	[Nombre] NVARCHAR(50) NOT NULL,
-);
+- git fetch
+- git pull
 
-CREATE TABLE [Salas] (
-	[Id] INT NOT NULL PRIMARY KEY IDENTITY(1,1),
-	[Nombre] NVARCHAR(50) NOT NULL,
-	[Cinema] INT REFERENCES [Cinemas]([Id]) NOT NULL,
-	[Fecha] SMALLDATETIME DEFAULT GETDATE(),
-	[Activo] BIT NOT NULL,
-	[Area] DECIMAL(10, 2) NOT NULL,
-);
-GO
+- git add *
+- git commit -am "Descripcion"
+- git push
 
-INSERT INTO [Cinemas] VALUES ('Procinal');
-INSERT INTO [Cinemas] VALUES ('Cine colombia');
-INSERT INTO [Salas] VALUES ('S001', 1, GETDATE(), 1, 0.0);
-INSERT INTO [Salas] VALUES ('S002', 1, GETDATE(), 1, 100.0);
-INSERT INTO [Salas] VALUES ('S001', 2, GETDATE(), 1, 500.0);
-INSERT INTO [Salas] ([Nombre], [Cinema], [Activo], [Area]) 
-VALUES ('S003', 2, 0, 500.0);
-GO
+- git checkout -- .
 
-SELECT * FROM [Cinemas];
-SELECT * FROM [Salas];
+- Remover todo lo de github
+- Control Panel\User Accounts\Credential Manager
 
-SELECT s.*, c.[Nombre] 'NombreCinema'
-FROM [Salas] s INNER JOIN [Cinemas] c
-	ON s.[Cinema] = c.[Id];
+# Commandos dotnet 
+- dotnet run
+- dotnet restore
+- dotnet add package NAME --version NUMBER
+- dotnet remove package NAME
+
+- dotnet add package Microsoft.EntityFrameworkCore.SqlServer 
+- dotnet add package System.Data.SqlClient --version 4.8.6
+
+# Proyectos
+-VsCode
+	dotnet new console -n Nombre
