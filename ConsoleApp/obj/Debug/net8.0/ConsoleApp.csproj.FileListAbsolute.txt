@@ -1,0 +1,15 @@
+C:\Users\Usuario\Desktop\Prueba3-Programacion\ConsoleApp\bin\Debug\net8.0\ConsoleApp.exe
+C:\Users\Usuario\Desktop\Prueba3-Programacion\ConsoleApp\bin\Debug\net8.0\ConsoleApp.deps.json
+C:\Users\Usuario\Desktop\Prueba3-Programacion\ConsoleApp\bin\Debug\net8.0\ConsoleApp.runtimeconfig.json
+C:\Users\Usuario\Desktop\Prueba3-Programacion\ConsoleApp\bin\Debug\net8.0\ConsoleApp.dll
+C:\Users\Usuario\Desktop\Prueba3-Programacion\ConsoleApp\bin\Debug\net8.0\ConsoleApp.pdb
+C:\Users\Usuario\Desktop\Prueba3-Programacion\ConsoleApp\obj\Debug\net8.0\ConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Desktop\Prueba3-Programacion\ConsoleApp\obj\Debug\net8.0\ConsoleApp.AssemblyInfoInputs.cache
+C:\Users\Usuario\Desktop\Prueba3-Programacion\ConsoleApp\obj\Debug\net8.0\ConsoleApp.AssemblyInfo.cs
+C:\Users\Usuario\Desktop\Prueba3-Programacion\ConsoleApp\obj\Debug\net8.0\ConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\Prueba3-Programacion\ConsoleApp\obj\Debug\net8.0\ConsoleApp.sourcelink.json
+C:\Users\Usuario\Desktop\Prueba3-Programacion\ConsoleApp\obj\Debug\net8.0\ConsoleApp.dll
+C:\Users\Usuario\Desktop\Prueba3-Programacion\ConsoleApp\obj\Debug\net8.0\refint\ConsoleApp.dll
+C:\Users\Usuario\Desktop\Prueba3-Programacion\ConsoleApp\obj\Debug\net8.0\ConsoleApp.pdb
+C:\Users\Usuario\Desktop\Prueba3-Programacion\ConsoleApp\obj\Debug\net8.0\ConsoleApp.genruntimeconfig.cache
+C:\Users\Usuario\Desktop\Prueba3-Programacion\ConsoleApp\obj\Debug\net8.0\ref\ConsoleApp.dll
