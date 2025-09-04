@@ -25,6 +25,21 @@ namespace ConsoleApp.Conexion
                 Console.WriteLine(elemento.Id + ", " + elemento.Nombre);
             }
         }
+
+        public void CargarSalas()
+        {
+            var conexion = new Conexion();
+
+            conexion.Cadena_Conexion = cadena_conexion;
+
+            var lista = conexion.Salas!.Include(x => x._Cinema).ToList();
+
+            foreach (var elemento in lista)
+            {
+                Console.WriteLine(elemento.Id + ", " + elemento.Nombre + ", " + elemento.Cinema + ", " + elemento.Fecha + ", " + elemento.Activo + ", " + elemento.Area + ", " + elemento._Cinema.Nombre);
+            }
+        }
+
     }
 
 
@@ -40,5 +55,6 @@ namespace ConsoleApp.Conexion
         }
 
         public DbSet<Cinemas>? Cinemas { get; set; }
+        public DbSet<Salas>? Salas { get; set; }
     }
 }
