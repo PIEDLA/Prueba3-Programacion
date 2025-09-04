@@ -29,7 +29,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 [Key]
-[NotMapped] ICollection<T>?
+[NotMapped] public ICollection<T>?
 [ForeignKey("Nombre")] public T?
 
 using System.Data.SqlClient;
